@@ -1,0 +1,68 @@
+.social {
+  position: fixed; 
+  left: 0; 
+  top: 200px; 
+  z-index: 2000; 
+}
+ 
+  .social ul {
+    list-style: none;
+  }
+ 
+  .social ul li a {
+    display: inline-block;
+    color:#fff;
+    background: #000;
+    padding: 10px 10px;
+    text-decoration: none;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease; 
+  }
+ 
+  .social ul li .icon-facebook {background:#3b5998;} 
+  .social ul li .icon-twitter {background: #00abf0;}
+  .social ul li .icon-googleplus {background: #d95232;}
+  .social ul li .icon-pinterest {background: #ae181f;}
+  .social ul li .icon-mail {background: #666666;}
+ 
+  .social ul li a:hover {
+    background: #000; 
+    padding: 10px 30px; 
+  }
+
+  img{
+
+    width:700; 
+    height:336;
+
+  }
+
+  h1{
+
+    font-family: Latin Modern Roman 10;
+    font-style: oblique;
+    font-size:35px;
+    color: #d95232;
+    text-shadow:   #34495e 2px 2px;
+
+  }
+
+  h3{
+    
+    font:oblique bold 120% cursive;
+    font-style: oblique;
+    font-size:25px;
+    color: #2c3e50;
+    text-shadow:   #2ecc71 2px 2px;
+  }
+
+  p{
+
+    font-size:20px;
+    font-family: cursive;
+  }
+.carousel-inner img {
+    width: 95%;
+    height: 95%;
+  }
